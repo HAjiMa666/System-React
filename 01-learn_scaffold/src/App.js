@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+/*
+ * @Author: czx
+ * @Date: 2022-09-18 12:22:24
+ * @LastEditTime: 2022-09-19 23:48:02
+ * @LastEditors: czx
+ * @Description:
+ */
+import ClassComponent from './Class-Component-Study'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>类组件学习</h1>
+      <ClassComponent />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
